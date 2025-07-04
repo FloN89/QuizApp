@@ -1,0 +1,20 @@
+.container {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 1000px;
+    border-radius: 12px;
+    background-color: rgb(110, 43, 43) !important;
+}
+
+.question-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.quiz-card {
+    width: 25rem;
+}
