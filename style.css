@@ -18,3 +18,8 @@
 .quiz-card {
     width: 25rem;
 }
+.quiz-answer-card:hover{
+    cursor: pointer;
+    background-color: rgb(238, 112, 112);
+
+}
