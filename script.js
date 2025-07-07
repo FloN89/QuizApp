@@ -67,7 +67,8 @@ function showQuestion(){
         document.getElementById('questionBody').style = 'display: none';
 
     } else {
-
+ 
+        
     }
     let question = questions[currentQuestion];
 
