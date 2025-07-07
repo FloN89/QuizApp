@@ -1,11 +1,11 @@
 let questions = [
     {
-    "question": "Frage1",
-    "answer_1": "Antwort1",
-    "answer_2": "Antwort2",
-    "answer_3": "Antwort3",
-    "answer_4": "Antwort4",
-    "right_answer": 3
+    "question": "Wenn die Londoner von einem „black cab“ reden, dann meinen sie …",
+    "answer_1": "ein Taxi",
+    "answer_2": "einen Regenhut",
+    "answer_3": "einen verbrannten Toast",
+    "answer_4": "gebratene Blutwurst",
+    "right_answer": 1
     },
 
      {
@@ -78,13 +78,11 @@ function answer(selection) {
      let idOfRightAnswer = `answer_${question['right_answer']}`;
 
      if(selectedQuestionNumber == question['right_answer']) {
-        console.log('richtige Antwort!');
         document.getElementById(selection).parentNode.classList.add('bg-success');
      } else {
-        console.log('falsche antwort!');
         document.getElementById(selection).parentNode.classList.add('bg-danger');
         document.getElementById(idOfRightAnswer).parentNode.classList.add('bg-success');
      }
-    
+    document.getElementById('next-button').disabled = false;
 
 }
