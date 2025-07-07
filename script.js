@@ -86,3 +86,8 @@ function answer(selection) {
     document.getElementById('next-button').disabled = false;
 
 }
+
+function nextQuestion(){
+    currentQuestion++;
+    showQuestion();
+}
