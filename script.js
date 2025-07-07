@@ -73,7 +73,14 @@ function showQuestion(){
 
 function answer(selection) {
      let question = questions[currentQuestion];
-    console.log('selected answer is ', selection);
+     let selectedQuestionNumber = selection.slice(-1);
+     
+     if(selectedQuestionNumber == question['right_answer']) {
+        console.log('richtige Antwort!');
+     } else {
+        console.log('falsche antwort!');
+        
+     }
     
 
 }

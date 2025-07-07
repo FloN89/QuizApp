@@ -3,10 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
-    width: 1000px;
+    height: 100%;
+    width: 90%;
     border-radius: 12px;
-    background-color: rgb(110, 43, 43) !important;
+    background-image: url(img/england-flag.png)!important;
+    
+    
 }
 
 .question-footer {
