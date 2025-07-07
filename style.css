@@ -3,10 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 90%;
+    height: 100vh;
+    width: 100vh;
     border-radius: 12px;
     background-image: url(img/england-flag.png)!important;
+    background-repeat: no-repeat;
     
     
 }
@@ -24,4 +25,7 @@
     cursor: pointer;
     background-color: rgb(239, 172, 172);
 
+}
+.bg-success, .bg-danger {
+    color: white !important;
 }
