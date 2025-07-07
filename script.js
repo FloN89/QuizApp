@@ -9,46 +9,46 @@ let questions = [
     },
 
      {
-    "question": "Frage2",
-    "answer_1": "Antwort1",
-    "answer_2": "Antwort2",
-    "answer_3": "Antwort3",
-    "answer_4": "Antwort4",
+    "question": "Wie viele Einwohner hat London?",
+    "answer_1": "ca. 3,1 Millionen",
+    "answer_2": "ca. 5,7 Millionen",
+    "answer_3": "ca. 7,8 Millionen",
+    "answer_4": "ca. 10,4 Millionen",
     "right_answer": 3
     },
 
      {
-    "question": "Frage3",
-    "answer_1": "Antwort1",
-    "answer_2": "Antwort2",
-    "answer_3": "Antwort3",
-    "answer_4": "Antwort4",
-    "right_answer": 3
+    "question": "Welcher Serienmörder trieb sein Unwesen in London?",
+    "answer_1": "The Gentleman Killer",
+    "answer_2": "The Candy Man",
+    "answer_3": "Green River Killer",
+    "answer_4": "Jack the Ripper",
+    "right_answer": 4
     },
 
      {
-    "question": "Frage4",
-    "answer_1": "Antwort1",
-    "answer_2": "Antwort2",
-    "answer_3": "Antwort3",
-    "answer_4": "Antwort4",
-    "right_answer": 3
+    "question": "In welchem Jahr wurde die Tower Bridge in London eröffnet?",
+    "answer_1": "1906",
+    "answer_2": "1894",
+    "answer_3": "1736",
+    "answer_4": "1655",
+    "right_answer": 2
     },
 
      {
-    "question": "Frage5",
-    "answer_1": "Antwort1",
-    "answer_2": "Antwort2",
-    "answer_3": "Antwort3",
-    "answer_4": "Antwort4",
-    "right_answer": 3
+    "question": "Welcher bekannte Fluss fließt durch London?",
+    "answer_1": "Themse",
+    "answer_2": "Seine",
+    "answer_3": "Spree",
+    "answer_4": "Tiber",
+    "right_answer": 1
     },
      {
-    "question": "Frage6",
-    "answer_1": "Antwort1",
-    "answer_2": "Antwort2",
-    "answer_3": "Antwort3",
-    "answer_4": "Antwort4",
+    "question": "Welchen Ort findet man nicht in London?",
+    "answer_1": "Trafalgar Square",
+    "answer_2": "Downing Street",
+    "answer_3": "Times Square",
+    "answer_4": "Piccadilly Circus",
     "right_answer": 3
     },
 ];
@@ -61,8 +61,16 @@ function init(){
 }
 
 function showQuestion(){
+
+    if(currentQuestion >= questions.length) {
+
+    } else {
+
+    }
     let question = questions[currentQuestion];
 
+
+    document.getElementById('question-number').innerHTML = currentQuestion +1;
     document.getElementById('questionText').innerHTML = question['question'];
     document.getElementById('answer_1').innerHTML = question['answer_1'];
     document.getElementById('answer_2').innerHTML = question['answer_2'];
