@@ -23,7 +23,7 @@
 }
 .quiz-answer-card:hover{
     cursor: pointer;
-    background-color: rgb(239, 172, 172);
+    background-color: rgb(188, 166, 241);
 
 }
 .bg-success, .bg-danger {
