@@ -63,7 +63,7 @@ function init(){
 function showQuestion(){
 
     if(currentQuestion >= questions.length) {
-        document.getElementById('endScreen').style= '';
+        document.getElementById('endScreen').style = '';
         document.getElementById('questionBody').style = 'display: none';
 
     } else {
